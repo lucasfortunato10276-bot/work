@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+<ul class="ss">
+    <li>Senha: 12345</li>
+    <li>Username: pessoa</li>
+</ul>
+
+
+ <div class="com">
+    <div class="lay">
+        <h1>Login</h1>
+     
+<label for="ip1">Username</label>
+<input type="text" id="ip1" required placeholder="Insira seu Nome...">
+<label for="ip2">Password</label>
+<input type="password" required
+id="ip2" placeholder="Insira sua Senha... "
+>
+<a href=""><u>Esqueceu a Senha?</u></a>
+<button class="bt1" type="button" onclick="oo()">Login</button>
+<p>Entrar de Outra Forma</p>
+<div class="pai">
+<button class="fa-brands fa-facebook"></button>
+<button class="fa-brands fa-twitter"></button>
+<button class="fa-brands fa-google"></button>
+</div>
+
+
+
+</div>
+
+
+
+
+ </div>   
+
+
+ <script>
+
+
+
+function oo(){
+var pp = document.getElementById("ip1").value
+var po =document.getElementById("ip2").value
+
+
+
+
+
+
+
+if(pp === "" && po === ""){
+alert("Preencha os campos")
+
+
+}
+else if(pp === "pessoa" && po === "12345"){
+    alert("login bem sucedido!")
+}
+else{
+
+    alert("Digite o User e a Senha acima nos campos")
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+ </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

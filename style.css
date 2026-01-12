@@ -1,0 +1,144 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.com{
+  box-shadow: 0 0 10px;
+  border-radius: 5px;  
+background-color: white;
+width: 100%;
+max-width: 400px;
+min-height: 600px;
+}
+.lay {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.lay h1{
+text-align: center;
+padding-top: 35px;
+
+}
+.lay input{
+width: 100%;
+max-width: 340px;
+padding: 2px;
+border: none;
+border-bottom: 1px solid rgba(0, 0, 0, 0.623) ;
+background-color: rgba(240, 248, 255, 0.116);
+outline: none;
+margin-left: 1rem;
+}
+.lay label{
+
+margin-left:0.7em ;
+font-size: 16px;
+font-weight: 500;
+
+}
+.lay a{
+text-decoration: none;
+color: black;
+margin-left: 0.7rem;
+}
+.bt1{
+    cursor: pointer;
+max-width: 220px;
+padding: 6px;
+margin-top: 1rem;
+font-size: 16px;
+border-radius: 15px;
+border: none;
+margin-left: 5rem;
+background: linear-gradient(to right, rgb(56, 56, 187) , rgb(202, 77, 202));
+color: white;
+}
+button:hover{
+box-shadow: 0 0 10px black;
+transition: 0.8s;
+}
+button:active{
+transform: scale(0.9);
+
+}
+
+
+
+
+
+
+
+body{
+background: linear-gradient(to right, rgb(56, 56, 187) , rgb(202, 77, 202));
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 1rem;
+transition: 1s ease-in-out
+}
+.pai{
+display: inline-flex;
+gap: 25px;
+transition: 1s ease-in-out;
+margin-top: 2rem;
+margin-left:130px ;
+}
+.pai button{
+padding: 7px;
+cursor: pointer;
+border-radius: 10px;
+border: none;
+}
+.fa-facebook{
+background-color: blue;
+color: white;
+
+}
+.fa-twitter{
+background-color: rgb(56, 56, 230);
+color: white;
+}
+.fa-google{
+background-color: brown;
+color: white;
+}
+.lay p{
+text-align: center;
+margin-right: 1.5rem;
+margin-top: 1.5rem;
+
+font-size: 18px;
+}
+@media(max-width:500px){
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 15vh;
+padding: 10px;
+}
+
+
+
+}
+@media(max-width:768px){
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 15vh;
+padding: 10px;
+}
+
+
+}
+.ss{
+position: absolute;
+top: 10px;
+left: 10px;
+list-style: none;
+color: white;
+font-weight: bold;
+}
